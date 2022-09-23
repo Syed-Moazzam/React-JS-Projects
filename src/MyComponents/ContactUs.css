@@ -1,0 +1,244 @@
+.container-of-contact > h1{
+    color: #1c2237;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.sub-container-of-contact{
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0rem 0rem 0rem;
+}
+
+.img-of-contact-us {
+    width: 32%;
+    height: 406px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 7px 3px #1c2237;
+    margin-right: 4.5rem;
+}
+
+.form-control{
+    margin-left: 8px;
+}
+
+.fa-phone,.fa-comment,.fa-user,.fa-envelope{
+    font-size: 1.2rem;
+    color: #1c2237;
+}
+
+.input-fields-of-contact-us{
+    display: flex;
+    align-items: center;
+}
+
+#null:focus{
+    border: 2px solid #1c2237;
+    box-shadow: 0px 0px 5px 1.5px #1c2237 !important;
+}
+
+#success{
+    border: 2px solid limegreen;
+    box-shadow: 0px 0px 5px 2px limegreen;
+}
+
+#failure{
+    border: 2px solid rgb(225, 20, 20);
+    box-shadow: 0px 0px 5px 2px rgb(225, 20, 20);
+}
+
+#text-area-of-contact-us{
+    display: flex;
+}
+
+#text-area-of-contact-us > textarea{
+    resize: none;
+    width: 100%;
+    margin-left: 8px;
+}
+
+.btn{
+    width: auto !important;
+    border: 1px solid #0d6efd !important;
+    margin: 1rem 0rem 0rem 1.6rem !important;
+} 
+
+.btn:disabled{
+    border: 1px solid #0d6efd !important;
+    margin: 1rem 0rem 0rem 1.6rem !important;
+}
+
+.btn:hover{
+    border: 1px solid black !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+.container-div-of-map{
+    padding: 0.4rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5.5rem 0rem;
+    border-top: 2px solid #1c2237;
+    border-bottom: 2px solid #1c2237;
+}
+
+#location-div-of-map{
+    width: 38%;
+    margin: auto;
+}
+
+#location-div-of-map > div{
+    display: flex;
+    align-items: center;
+}
+
+#location-div-of-map > div > i{
+    color: #1c2237;
+    font-size: 30px;
+    position: relative;
+    bottom: 4px;
+}
+
+#location-div-of-map > div > p{
+    font-size: 35px;
+    margin-left: 1.1rem !important;
+    color: #1c2237;
+    font-weight: bold;
+}
+
+.container-div-of-map p{
+    margin-bottom: 3px;
+    font-size: 22px;
+    margin-left: 2.5rem;
+}
+
+.map{
+    width: 50%;
+    height: 60vh;
+    margin: 1rem auto;
+}
+
+.map iframe{
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/* media queries */
+@media screen and (max-width: 1250px) {
+    .container-div-of-map{
+        flex-direction: column;
+    }
+
+    #location-div-of-map {
+        width: 90%;
+        text-align: center;
+        margin: 2rem auto 1rem auto;
+    }
+
+    #location-div-of-map > div {
+        justify-content: center;
+    }
+
+    .map{
+        width: 90%;
+    }
+
+    .sub-container-of-contact > form{
+        width: 45% !important;
+    }
+
+    .img-of-contact-us {
+        width: 35%;
+    }
+
+    .container-div-of-map p {
+        margin-left: 0rem !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .sub-container-of-contact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-of-contact-us {
+        width: 50%;
+        height: 65vh;
+        margin-right: 0rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .sub-container-of-contact > form{
+        width: 50% !important;
+    }
+
+    .container-div-of-map {
+        margin: 4.5rem 0rem;
+    }   
+}
+
+@media screen and (min-width: 650px) and (max-width: 780px) {
+    .img-of-contact-us {
+        width: 70%;
+    }
+
+    .sub-container-of-contact > form {
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .img-of-contact-us {
+        width: 85%;
+    }
+
+    .sub-container-of-contact > form {
+        width: 85% !important;
+    }
+
+    .container-of-contact > h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .container-of-contact > h1 {
+        font-size: 3rem;
+    }
+
+    .img-of-contact-us {
+        height: 58vh;
+    }
+
+    .btn {
+        width: 30% !important;
+        text-align: center;
+        padding: 0.35rem 0rem !important;
+    }
+
+    #location-div-of-map > p {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .img-of-contact-us {
+        height: 45vh;
+    }
+
+    #location-div-of-map > div > p {
+        font-size: 30px;
+    }
+
+    .container-of-contact > h1 {
+        font-size: 2.6rem !important;
+        margin-left: 0.5rem !important;
+        margin-right: 0.5rem !important;
+    }
+}

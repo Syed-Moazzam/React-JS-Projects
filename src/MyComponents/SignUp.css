@@ -1,0 +1,208 @@
+.container-of-sign-up{
+    background-color: #1c2237;
+    margin: 0px !important;
+    padding: 8rem 0rem 5.5rem 0rem;
+}
+
+.sub-container{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-and-btn-of-sign-up{
+    width: 40%;
+    margin-right: 5rem;
+}
+
+.text-and-btn-of-sign-up > h5{
+    color: #f00946;
+    font-weight: 900;
+}
+
+.text-and-btn-of-sign-up > p {
+    margin: 14px 0px 22px 0px;
+    font-size: 18px;
+}
+
+.sign-up-link{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #276afb;
+    padding: 5px 55px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+.sign-up-link:hover{
+    background-color: #f00946;
+    color: white;
+}
+
+.signup-form {
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5.5rem auto;
+}
+
+#null:focus{
+    border: 2px solid #1c2237;
+    box-shadow: 0px 0px 5px 1.5px #1c2237 !important;
+}
+
+#success{
+    border: 2px solid limegreen;
+    box-shadow: 0px 0px 5px 2px limegreen;
+}
+
+#failure{
+    border: 2px solid rgb(225, 20, 20);
+    box-shadow: 0px 0px 5px 2px rgb(225, 20, 20);
+}
+
+.signup-form > form{
+    width: 50%;
+}
+
+.signup-form-headings-div > h2{
+    color: #1c2237;
+    margin-bottom: 4px;
+    font-size: 35px;
+}
+
+.signup-form-headings-div > h4{
+    color: #1c2237;
+    margin-bottom: 1rem;
+}
+
+.input-of-sign-up-form{
+    margin: 0px 0px 18px 0px !important;
+}
+
+.btn-for-create-account {
+    margin: 0px !important;
+    width: auto !important;
+    padding: 6px 25px;
+    font-size: 18px !important;
+    border: 1px solid #0d6efd !important;
+}
+
+.btn-for-create-account:disabled {
+    margin: 0px !important;
+    border: 1px solid #0d6efd !important;
+}
+
+.btn-for-create-account:hover {
+    border: 1px solid black !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+.img-of-signup-form {
+    margin-left: 8rem;
+}
+
+.img-of-signup-form > img{
+    width: 28rem;
+}
+
+/* media queries */
+@media screen and (max-width: 1250px) {
+    .text-and-btn-of-sign-up {
+        width: 40%;
+        margin-right: 3rem !important;
+        margin-left: 3rem;
+    }
+
+    .sub-container > img{
+        margin-right: 3rem !important;
+    }
+
+    .signup-form {
+        width: 90%;
+    }
+
+    .img-of-signup-form {
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .container-of-sign-up {
+        padding: 5rem 0rem 5.5rem 0rem;
+    }
+
+    .sub-container{
+        flex-direction: column;
+        margin: 0rem 4rem;
+    }
+    
+    .text-and-btn-of-sign-up {
+        width: 100%;
+    }
+    
+    .sub-container > img {
+        margin-right: 0rem !important;
+        width: 65% !important;
+        margin-top: 3rem;
+    }
+
+    .img-of-signup-form > img {
+        width: 24rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .sub-container > img {
+        width: 75% !important;
+    }
+
+    .img-of-signup-form {
+        display: none;
+        margin: 0rem !important;
+    }
+
+    .signup-form > form {
+        width: 75%;
+    }    
+}
+
+@media screen and (max-width: 720px) {
+    .sub-container > img {
+        width: 90% !important;
+    }
+
+    .btn-for-create-account {
+        padding: 5px 18px;
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .signup-form > form {
+        width: 95%;
+    }   
+
+    .sub-container > img {
+        width: 100% !important;
+    }
+
+    .btn-for-create-account {
+        padding: 5px 10px !important;
+        font-size: 16px !important;
+    }
+
+    .sub-container {
+        margin: 0rem 2rem;
+    }
+
+    .sign-up-link {
+        padding: 5px 45px;
+        font-size: 18px;
+    }
+}

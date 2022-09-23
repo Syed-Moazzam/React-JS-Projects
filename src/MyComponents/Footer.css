@@ -1,0 +1,198 @@
+.container-of-footer{
+    background-color: #1c2237;
+    color: white;
+    padding: 10rem 0rem 0rem 0rem;
+}
+
+.container-of-footer > div{
+    width: 60%;
+    margin: auto;
+}
+
+.upper-div-of-footer{
+    text-align: center;
+}
+
+.upper-div-of-footer > h3,h5{
+    margin-bottom: 16px;
+}
+
+.div-of-subscribe-of-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-btn-of-footer{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 3px 12px;
+    border-radius: 5px;
+    margin: 0px 12px;
+    font-size: 18px;
+}
+
+.subscribe-btn-of-footer:hover{
+    background-color: #f00946;
+}
+
+.lower-div-of-footer {
+    display: flex;
+    padding: 5rem 0rem 2rem 0rem;
+}
+
+.lower-div-of-footer > div{
+    width: 25%;
+    margin: auto;
+}
+
+.lower-div-of-footer > div > p{
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.lower-div-of-footer > div > p:hover{
+    color: #f00946;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+.footer > div {
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.div-of-logo-and-name-in-footer{
+    text-align: left !important;
+}
+
+.div-of-copyright-in-footer{
+    font-size: 26px;
+}
+
+.div-of-social-media-icons-in-footer i{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin: 0px 15px;
+    color: white;
+}
+
+.div-of-social-media-icons-in-footer i:hover{
+    color: #f00946 !important;
+}
+
+.name-of-footer-brand{
+    color: white !important;
+    font-size: 26px !important;
+}
+
+.footer-fingerprint{
+    color: white !important;
+    font-size: 25px !important;
+    margin-right: 12px !important;
+}
+
+/* media queries */
+@media screen and (max-width: 1400px){
+    .footer > div {
+        width: 20%;
+        margin: 0rem 2rem;
+    }
+    
+    .div-of-logo-and-name-in-footer {
+        text-align: center !important;
+    }
+
+    .div-of-social-media-icons-in-footer i {
+        font-size: 2.2rem;
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .lower-div-of-footer {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+
+    .lower-div-of-footer > div {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-us-footer,.contact-us-footer{
+        margin-bottom: 1.6rem !important;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .footer > div {
+        width: 25%;
+        margin: 0rem 1rem;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+    }
+
+    .footer > div {
+        font-size: 2rem !important;
+        width: 100%;
+        text-align: center !important;
+        margin: 0rem 0rem 0.7rem 0rem !important;
+    }
+
+    .footer-fingerprint{
+        font-size: 2rem !important;
+    }
+
+    .name-of-footer-brand{
+        font-size: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .container-of-footer > div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .div-of-subscribe-of-footer {
+        flex-direction: column;
+    }
+
+    .subscribe-btn-of-footer {
+        margin-top: 15px;
+    }
+
+    .lower-div-of-footer {
+        grid-template-columns: repeat(1,auto);
+        padding-top: 3.5rem;
+    }
+
+    .videos-footer{
+        margin-bottom: 1.6rem !important;
+    }
+
+    .footer {
+        padding: 1rem 0rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container-of-footer{
+        padding: 6.5rem 0rem 0rem 0rem;
+    }
+}

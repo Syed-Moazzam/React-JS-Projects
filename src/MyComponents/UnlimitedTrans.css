@@ -1,0 +1,70 @@
+.container-of-unlimited-transaction{
+    background-color: #1c2237;
+    padding: 7rem 0rem;
+}
+
+.sub-container-of-unlimited-transaction{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.sub-container-of-unlimited-transaction > div{
+    width: 38%;
+    margin-right: 8rem;
+}
+
+.sub-container-of-unlimited-transaction > div > h5{
+    color: #f00946;
+    font-weight: 900;
+}
+
+.sub-container-of-unlimited-transaction > div > p {
+    margin: 18px 0px 24px 0px;
+    font-size: 18px;
+}
+
+.get-started-btn-of-unlimited-trans{
+    color: white;
+    background-color: #276afb;
+    padding: 5px 42px;
+    font-size: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+}
+
+.get-started-btn-of-unlimited-trans:hover{
+    background-color: #f00946;
+    color: white;
+}
+
+/* media queries */
+@media screen and (max-width:1150px) {
+    .sub-container-of-unlimited-transaction {
+        flex-direction: column;
+    }
+
+    .sub-container-of-unlimited-transaction > div {
+        width: 100%;
+        margin-right: 0px !important;
+    }
+
+    .sub-container-of-unlimited-transaction > img{
+        margin-top: 3rem !important;
+        width: 62% !important;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .container-of-unlimited-transaction {
+        padding: 5rem 0rem;
+    }
+
+    .sub-container-of-unlimited-transaction > img {
+        width: 82% !important;
+    }
+}

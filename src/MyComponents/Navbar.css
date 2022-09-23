@@ -1,0 +1,75 @@
+.navbar-expand-lg{
+    background-color: #1c2237;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbar-fingerprint{
+    color: white !important;
+    font-size: 25px !important; 
+    margin-right: 12px !important;
+}
+
+.container-fluid{
+    width: 88%;
+}
+
+.name-of-navbar-brand{
+    color: white !important;
+    font-size: 26px !important;
+}
+
+.me-auto {
+    margin-left: auto !important;
+    margin-right: 0px !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 18px !important;
+    margin: 0px 15px !important;
+    text-align: center !important;
+}
+
+.nav-link:hover {
+    color: #f00946 !important;
+}
+
+.sign-up-link-of-navbar{
+    background-color: transparent !important;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white !important;
+    padding: 4px 10px !important;
+    margin: 0px 0px 0px 15px !important;
+    border-radius: 5px !important;
+}
+
+.sign-up-link-of-navbar:hover{
+    color: black !important;
+    background-color: white !important;
+    font-weight: bold !important;
+}
+
+/* media queries */
+@media screen and (max-width: 990px) {
+    .container-fluid{
+        width: 100%;
+    }    
+
+    .div-of-logo-and-name{
+        margin-left: 10px;
+    }
+    
+    #contact-us-link{
+        margin-bottom: 12px !important;
+    }
+    
+    .sign-up-link-of-navbar{
+        margin: 0px !important;
+    }
+}

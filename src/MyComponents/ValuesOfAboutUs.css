@@ -1,0 +1,62 @@
+.container-of-values-of-about-us{
+    background-color: #1c2237;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 5rem;
+}
+
+.container-of-values-of-about-us > h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.container-of-values-of-about-us > p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.sub-container-of-values-of-about-us{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+/* media queries */
+@media screen and (max-width: 1320px) {
+    .sub-container-of-values-of-about-us{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .sub-container-of-values-of-about-us{
+        grid-template-columns: repeat(1,auto);
+    }
+
+    .container-of-values-of-about-us{
+        padding: 3rem !important;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .container-of-values-of-about-us{
+        padding: 3rem 2rem !important;
+    }
+
+    .container-of-values-of-about-us > h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .container-of-values-of-about-us > p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container-of-values-of-about-us > p {
+        font-size: 18px;
+    }
+}

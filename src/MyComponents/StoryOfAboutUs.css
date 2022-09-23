@@ -1,0 +1,39 @@
+.our-story {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 5rem 0rem;
+}
+
+.our-story > p{
+    font-size: 22px;
+    color: #1c2237;
+}
+
+.our-story > h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #1c2237;
+}
+
+/* media queries */
+@media screen and (max-width: 1320px) {
+    .our-story {
+        width: 90%;
+        padding: 4rem 0rem;
+    }
+
+    .our-story > p {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .our-story > h1 {
+        font-size: 3rem !important;
+    }
+
+    .our-story > p {
+        font-size: 18px !important;
+    }
+}

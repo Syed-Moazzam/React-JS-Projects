@@ -1,0 +1,57 @@
+.our-culture{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 3.5rem 0rem;
+}
+
+.our-culture > h1{
+    font-size: 3.5rem !important;
+    color: #1c2237 !important;
+    font-weight: bold;
+}
+
+.our-culture > p{
+    font-size: 22px !important;
+    margin-bottom: 1.5rem;
+    color: #1c2237 !important;
+}
+
+#get-in-touch-link{
+    background-color: #276afb;
+    padding: 7px 42px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#get-in-touch-link:hover{
+    background-color: #f00946;
+}
+
+/* media queries */
+@media screen and (max-width: 1320px) {
+    .our-culture {
+        width: 90%;
+    }
+
+    .our-culture > p {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .our-culture > h1 {
+        font-size: 3rem !important;
+    }
+
+    #get-in-touch-link {
+        padding: 7px 22px !important;
+    }
+
+    .our-culture > p {
+        font-size: 18px !important;
+    }
+}
